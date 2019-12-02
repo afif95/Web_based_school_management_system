@@ -1,4 +1,4 @@
-### Web based Result Management System
+### Web based School Management System
 #### for windows
 - install xampp and clone the repository into C:\\xampp\htdocs folder
 - import database files to xampp local server
