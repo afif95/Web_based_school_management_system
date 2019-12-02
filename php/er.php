@@ -1,16 +1,16 @@
-<!DOCTYPE HTML>  
+<!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   
+
     <title>Sunnydale High School</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     .navbar{
         padding: 15px;
         font-size: 20px;
-        
+
     }
     .navbar-brand{
         margin-bottom: 20px;
@@ -71,9 +71,9 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
 }
- 
+
 #myBtn {
   display: none;
   position: fixed;
@@ -92,7 +92,7 @@
 #myBtn:hover {
   background-color: #555;
 }
-    
+
 .image{
     text-align: center;
     color: #ffffff;
@@ -148,16 +148,16 @@ iframe{
               </ul>
             </li>
             <li><a href="administration.php">Administration</a></li>
-            
+
             <li><a href="notice.php">Notice</a></li>
 
            <li><a href="about.php">About Us</a></li>
             <li><a href="#contact">Contact Us</a></li>
-           
+
           </ul>
-          
+
           <ul class="nav navbar-nav navbar-right">
-         
+
             <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign Up <i class="fa fa-user-plus" aria-hidden="true"></i></a>
             <ul class="dropdown-menu">
             <li><a href="student_sign_up.php">As Student</a></li>
@@ -172,7 +172,7 @@ iframe{
                 <li><a href="admin.php">As Admin</a></li>
             </ul>
             </li>
-     
+
           </ul>
         </div>
     </div>
@@ -184,7 +184,7 @@ iframe{
 <div class="container-fluid">
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-   
+
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -201,7 +201,7 @@ iframe{
       <div class="item">
         <img src="images/slider2.jpg" alt="Sunnydale" style="width:100%;">
       </div>
-    
+
       <div class="item">
         <img src="images/slider3.jpg" alt="Sunnydale" style="width:100%;">
       </div>
@@ -210,7 +210,7 @@ iframe{
       </div>
     </div>
 
-    
+
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
@@ -221,7 +221,7 @@ iframe{
     </a>
   </div>
 </div>
-            
+
 <div class="container-fluid">
     <div class="row">
   <div class="col-md-6 first">
@@ -232,7 +232,7 @@ iframe{
   </div>
 
 </div>
-    
+
 </div>
 
 
@@ -253,10 +253,10 @@ Sunnydale has built a reputation as a pioneer in education in Bangladesh being o
         <li>launch an internship program</li>
         <li>introduce multimedia technology in classrooms</li>
     </ul>
-    
+
 All these firsts have been achieved through the vision, hard work, passion and dedication of the faculty and management of Sunnydale.</p>
 </div>
-    
+
 </div>
 
 <div class="container " id="announce">
@@ -282,8 +282,8 @@ All these firsts have been achieved through the vision, hard work, passion and d
           <img src="images/c1.jpg">
         </div>
       </div>
-      
-      
+
+
       <div class="col-lg-4 col-sm-6">
         <div class="thumbnail">
           <img src="images/c2.jpg">
@@ -294,7 +294,7 @@ All these firsts have been achieved through the vision, hard work, passion and d
           <img src="images/c3.jpg">
         </div>
       </div>
-    
+
   </div>
 </div>
 
@@ -306,11 +306,11 @@ All these firsts have been achieved through the vision, hard work, passion and d
 
 
 <div  class="footer clearfix" id="contact"style="background-color: #363A3D ; color: #ffffff; font-size: 10px; padding:10px;margin-top: 5px">
- 
+
         <h4>Central Office:</h4>
 
         <iframe src="http://free.timeanddate.com/clock/i636kyu3/n73/tlbd43/fn11/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="111" height="40"></iframe>
-        
+
             <p>Ascent Group Tele: 8860147,8860132,8819500,</p>
             <p>8815222,8856019-20 & 9887277 </p>
             <p>Fax: (+88 02) 8813141 Email: info@scholasticabd.com</p>
@@ -320,15 +320,15 @@ All these firsts have been achieved through the vision, hard work, passion and d
 
 
             <p>Contact us</p>
-        
-    
-       
+
+
+
             <p><strong>Associate School of:</strong>  University of Cambridge</p>
             <p><strong>Member of:</strong>            Dhaka International Schools Association (DISA)</p>
                                   <p>Bangladesh Private English Medium Schools Forum </p>
 
-        
-  
+
+
 
 
 
@@ -378,7 +378,8 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCbtaiLOCcOrxcQl92Aq76abGjV0lw40Sg &callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key= //insert your own api-key there
+ &callback=myMap"></script>
 
 
 <script type="text/javascript" src="jquery.js"></script>
