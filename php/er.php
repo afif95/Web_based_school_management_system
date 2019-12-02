@@ -378,7 +378,7 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key= //insert your own api-key there
+<script src="https://maps.googleapis.com/maps/api/js?key= //insert your own api-key here
  &callback=myMap"></script>
 
 
