@@ -1,4 +1,8 @@
 ### Web based School Management System
+# deployed app
+https://schoolsunnydale.000webhostapp.com/er.php
+
+# running locally
 #### for windows
 - install xampp and clone the repository into C:\\xampp\htdocs folder
 - import database files to xampp local server
