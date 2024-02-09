@@ -58,7 +58,7 @@
                                                             $id=$_POST['id'];
                                                                 $class=$_POST['class'];
                                                                 $password=$_POST['password'];
-                                                              $user_query3=mysqli_query($con,"select password from stu where roll=$id")
+                                                              $user_query3=mysqli_query($con,"select password from stu where roll='$id'")
 						or die(mysqli_error($con));
 						$row=mysqli_fetch_row($user_query3);
                                                
